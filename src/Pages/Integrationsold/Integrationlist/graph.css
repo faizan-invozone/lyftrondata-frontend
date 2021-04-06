@@ -1,0 +1,111 @@
+/* .recharts-surface{
+height: 50px !important;
+}
+.recharts-wrapper{
+    height: 50px !important;
+}  */
+svg:not(:root) {
+    overflow: visible;
+}
+.widget-content{
+    padding: 0px !important;
+}
+
+.ReactTable .rt-tbody .rt-td {
+    align-items: center;
+    align-content:  center!important;
+    display: block;
+    font-size: 12px;
+    border-right: 0;
+}
+/* .ReactTable .rt-thead .rt-th, .ReactTable .rt-thead .rt-td{
+    border-right: 0;
+} */
+/* .ReactTable .rt-thead.-filters .rt-th{
+    border-right: 0;
+} */
+/* .ReactTable .rt-th
+{
+    white-space: revert !important;
+} */
+.ReactTable .rt-thead .rt-th{
+    font-size: 12px;
+}
+
+.badge-lyftronnew {
+    font-weight: 800;
+    font-size: 10px;
+    color: white;
+    background-color: #4f3989;}
+
+    .bg-happy-fisher {
+        background-image: linear-gradient(120deg, #4f3989 0%, #4f3989 100%) !important;
+
+    }
+    .bg-happy-fisher-disable {
+        background-image: linear-gradient(120deg, #ed9521a8 0%, #ed9521a8 100%) !important;
+
+    }
+    .badge-lyftronwarning{
+        font-size: 10px; 
+    }
+    .fontingrapgh{
+        font-size: 12px !important;  
+    }
+    .fontgrapgh{
+        font-size: 13px !important;  
+    }
+    .badge-lyftrondanger{
+    font-size: 10px;background-color: red;
+    color:white;
+    }
+    .badge-lyftrondark{
+        font-size: 10px;background-color: black;
+        color:white;  
+    }
+    .badge{
+        text-transform: none;
+    }
+    .card-headernew{
+        height: 7.5rem;
+            text-transform: initial;
+    }
+    .widget-chart2 .widget-chat-wrapper-outer .widget-chart-wrapper-lg{
+        height: 150px;
+    }
+    .text-lyftron{
+    color: #4f3989;}
+    .text-size{
+        font-size: 1.2rem !important;
+    }
+    .text-newsize{
+        font-size: 1.3rem !important;
+    }
+    .text-newssize{
+        font-size: 1.5rem !important;
+    }
+    .text-lyftronwarning{
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 0.25rem;
+        color: #4f3989;
+        background-color: #ed9521a8;
+    }
+    .font-icon-wrappe {
+        text-align: center; 
+        border-radius: 0.25rem; 
+        margin: 0 0 10px; 
+        padding: 5px;
+    }
+.colgraph{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+text{
+    font-size: 13px !important;
+    fill:#4f3989 !important;
+}
+.widget-chart .widget-numbers {
+    font-size: 1.5rem;
+    color: #4f3989;
+}

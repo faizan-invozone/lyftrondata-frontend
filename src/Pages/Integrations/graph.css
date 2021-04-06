@@ -1,0 +1,193 @@
+
+svg:not(:root) {
+    overflow: visible;
+}
+.widget-content{
+    padding: 0px !important;
+}
+
+.ReactTable .rt-tbody .rt-td {
+    align-items: center;
+    align-content:  center!important;
+    display: block;
+    font-size: 12px;
+    border-right: 0;
+}
+.ReactTable .rt-thead .rt-th{
+    font-size: 12px;
+}
+
+.badge-lyftronnew {
+    font-weight: 800;
+    font-size: 10px;
+    color: white;
+    background-color: #4f3989;}
+
+    .bg-happy-fisher {
+        background-image: linear-gradient(120deg, #4f3989 0%, #4f3989 100%) !important;
+
+    }
+    .bg-happy-fisher-disable {
+        background-image: linear-gradient(120deg, #ed9521a8 0%, #ed9521a8 100%) !important;
+
+    }
+    .badge-lyftronwarning{
+        font-size: 10px; 
+    }
+    .fontingrapgh{
+        font-size: 12px !important;  
+    }
+    .fontgrapgh{
+        font-size: 13px !important;  
+    }
+    .badge-lyftrondanger{
+    font-size: 10px;background-color: red;
+    color:white;
+    }
+    .badge-lyftrondark{
+        font-size: 10px;background-color: black;
+        color:white;  
+    }
+    .badge{
+        text-transform: none;
+    }
+    .card-headernew{
+        height: 7.5rem;
+            text-transform: initial;
+    }
+    .widget-chart2 .widget-chat-wrapper-outer .widget-chart-wrapper-lg{
+        height: 150px;
+    }
+    .text-lyftron{
+    color: #4f3989;}
+    .text-size{
+        font-size: 1.2rem !important;
+    }
+    .text-newsize{
+        font-size: 1.3rem !important;
+    }
+    .text-newssize{
+        font-size: 1.5rem !important;
+    }
+    .text-lyftronwarning{
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 0.25rem;
+        color: #4f3989;
+        background-color: #ed9521a8;
+    }
+    .font-icon-wrappe {
+        text-align: center; 
+        border-radius: 0.25rem; 
+        margin: 0 0 10px; 
+        padding: 5px;
+    }
+.colgraph{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+text{
+    font-size: 13px !important;
+    fill:#4f3989 !important;
+}
+.widget-chart .widget-numbers {
+    font-size: 1.5rem;
+    color: #4f3989;
+}
+
+.actionbutton {
+    width: 100%;
+    background: white !important;
+    /* font-weight: bold; */
+    font-size: 13px !important;
+    color: #66529C !important;
+    border: 1px solid #66529C !important;
+    border-radius: 1px;
+    cursor: pointer;
+    line-height:.5rem !important;
+      }
+      .buttonall {
+        background: white !important;
+        color: #66529C !important;
+        font-weight: 700 !important;
+        border: 2px solid #66529C !important;
+        cursor: pointer;
+        font-size: 12px !important;
+          }
+          .buttonall:hover,.buttonall:focus {
+            box-shadow: 0 0 0 0px #4f3989, 0 0 0 1px #4f3989;
+          }
+    .form-card{
+      background: white;
+      border: 0 none;
+      border-radius: 0px;
+      box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+      padding: 20px 40px 30px 40px;
+      box-sizing: border-box;
+      width: 94%;
+      margin: 0 3% 20px 3%;
+      position: relative;
+    }
+    .ui.button:hover,.ui.button:focus {
+      box-shadow: 0 0 0 1px #4f3989, 0 0 0 0px #4f3989 !important;
+    }
+    .actionbuttonprevious {
+      width: 100%;
+      background: #616161;
+      font-size: 13px !important;
+      color: white;border: 0 none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  .actionbuttonprevious:hover,.actionbuttonprevious:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #616161;
+  }
+  .ui.multiple.dropdown>.label{
+    font-size: .7rem !important;
+  }
+
+  .modal-content{
+    border:none !important;
+    background-color: #fff0 !important;
+  }
+  .modal{
+    background-color: rgba(255,255,255,.99) !important;
+  }
+  .ui.steps{
+    border:none !important;
+  }
+  .ui.steps .step{
+    padding: .3em 2em !important;
+  }
+  .ui.multiple.dropdown>.label {
+    font-size: 12px !important;
+  }
+  .modal.show .modal-dialog {
+    padding: 0 2rem;
+  }
+  .ui.steps .step>.icon {
+    font-size: 2em !important;
+  }
+  .modal-dialog{
+    box-shadow:none !important;
+    max-width: 1500px !important;
+  }
+  .iconfont {
+    font-size: 34px;
+    color: #4f3989;
+}
+  
+.ui.ordered.steps .step.completed:before, .ui.steps .step.completed>.icon:before {
+  color: #4f3989 !important;
+}
+.ui.steps .step.active .title {
+  color: #4f3989 !important;
+}
+
+.btnstepform{
+color:#4f3989;background-color:#fff;border:1px solid #4f3989
+}
+
+.btnstepform:hover{
+  box-shadow: 0 0 0 1px #4f3989;;border:1px solid #4f3989
+}
