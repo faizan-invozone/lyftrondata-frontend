@@ -51,3 +51,11 @@ export const SuperAdminNav = [
     to: "#/SuperAdmin/SuperAdmin",
   },
 ];
+
+export const HomePageNav = [
+  {
+    icon: "pe-7s-home",
+    label: "HomePage",
+    to: "#/Home/HomePage",
+  },
+];
