@@ -37,37 +37,6 @@ const LandingPage = (props) => {
             </Link>
           </div>
         </header>
-
-        {/* <section id="experience" class="section experience-sec">
-          <div class="section-header">Languages & Frameworks</div>
-          <div class="experience-container">
-            <div class="experience-item">
-              <span class="item-logo">
-                <img src="https://raw.githubusercontent.com/ipenywis/portfolio-landing-page/master/images/laravel-logo.png" />
-              </span>
-              <span class="item-name">Laravel</span>
-            </div>
-            <div class="experience-item">
-              <span class="item-logo">
-                <img src="https://raw.githubusercontent.com/ipenywis/portfolio-landing-page/master/images/react-logo.png" />
-              </span>
-              <span class="item-name">React</span>
-            </div>
-            <div class="experience-item">
-              <span class="item-logo">
-                <img src="https://raw.githubusercontent.com/ipenywis/portfolio-landing-page/master/images/angular-logo.png" />
-              </span>
-              <span class="item-name">Angular</span>
-            </div>
-          </div>
-        </section> */}
-        {/* <div>LANDING PAGE IT IS OK?</div>
-      <div>
-        <Link to="/dashboard/basic">
-          {" "}
-          <button>Dashboard</button>
-        </Link>
-      </div> */}
       </div>
       <section
         style={{
