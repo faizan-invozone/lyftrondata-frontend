@@ -13,6 +13,8 @@ const Logs = lazy(() => import("../../Pages/Logs"));
 const SuperAdmin1 = lazy(() => import("../../Pages/SuperAdmin"));
 const HomePage1 = lazy(() => import("../../Pages/Home"));
 const Forms = lazy(() => import("../../Pages/Wizard"));
+const LandingPage1 = lazy(() => import("../../Pages/LandingPage/index"));
+
 // www
 //const Gis = lazy(() => import('../../www/Gis'));
 
@@ -117,6 +119,19 @@ const AppMain = () => {
         }
       >
         <Route path="/SuperAdmin" component={SuperAdmin1} />
+      </Suspense>
+      <Suspense
+        fallback={
+          <div className="loader-container">
+            <div className="loader-container-inner">
+              <div className="text-center">
+                <Loader type="ball-grid-cy" />
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <Route path="/LandingPage" component={LandingPage1} />
       </Suspense>
 
       <Route exact path="/" render={() => <Redirect to="/dashboard/basic" />} />

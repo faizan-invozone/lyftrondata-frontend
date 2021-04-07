@@ -11,6 +11,7 @@ import {
   LogNav,
   SuperAdminNav,
   HomePageNav,
+  LandingPageNav,
   wizardNav,
 } from "./NavItems";
 
@@ -68,6 +69,14 @@ class Nav extends Component {
         />
         <MetisMenu
           content={SuperAdminNav}
+          onSelected={this.toggleMobileSidebar}
+          activeLinkFromLocation
+          className="vertical-nav-menu"
+          iconNamePrefix=""
+          classNameStateIcon="pe-7s-angle-down"
+        />
+        <MetisMenu
+          content={LandingPageNav}
           onSelected={this.toggleMobileSidebar}
           activeLinkFromLocation
           className="vertical-nav-menu"
