@@ -1,71 +1,48 @@
 import React, { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
-import {
-  Button,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-  Input,
-} from "reactstrap";
 import logo from "./lyftron.png";
+import postgres from "./Postgresql.png";
+import SQL from "./sql.png";
+import oracle from "./oracle.png";
+import "./styles.css";
 
 const LandingPage = (props) => {
   return (
     <Fragment>
-      <div style={{ backgroundColor: "#a4508b" }}>
-        <header
-          class="header"
-          style={{
-            height: "100vh",
-            width: "100%",
-            justifyContent: "center",
-            marginTop: "100px",
-            textAlign: "center",
-            display: "flex",
-            position: "relative",
-          }}
-        >
-          <div class="header-info">
-            <img src={logo} alt="Ipenywis" style={{ marginBottom: "15px" }} />
-            <h2>LYFTRON</h2>
-            <h5>A Data Management Website</h5>
-            <Link to="/dashboard/basic">
-              <Button color="success" style={{ marginTop: "5px" }}>
-                {" "}
-                Go To Dashboard
-              </Button>
-            </Link>
+      <header class="header">
+        <div class="header-info">
+          <img src={logo} alt="lyftron" />
+          <h3>Lyftron Data</h3>
+          <h4>Manage your data</h4>
+          <Link to="/dashboard/basic">
+            <button class="btn" href="#experience">
+              GET STARTED
+            </button>
+          </Link>
+        </div>
+      </header>
+
+      <section id="experience" class="section experience-sec">
+        <div class="section-header">Databases</div>
+        <div class="experience-container">
+          <div class="experience-item">
+            <span class="item-logo">
+              <img src={postgres} />
+            </span>
+            <span class="item-name">Postgres</span>
           </div>
-        </header>
-      </div>
-      <section
-        style={{
-          backgroundColor: "white",
-          position: "releative",
-          borderRadius: "1px solid",
-        }}
-      >
-        <div>
-          <InputGroup>
-            <InputGroupAddon addonType="prepend">
-              <InputGroupText>@</InputGroupText>
-            </InputGroupAddon>
-            <Input placeholder="username" />
-          </InputGroup>
-          <br />
-          <InputGroup>
-            <InputGroupAddon addonType="prepend">
-              <InputGroupText>
-                <Input
-                  addon
-                  type="checkbox"
-                  aria-label="Checkbox for following text input"
-                />
-              </InputGroupText>
-            </InputGroupAddon>
-            <Input placeholder="Comments" />
-          </InputGroup>
-          <br />
+          <div class="experience-item">
+            <span class="item-logo">
+              <img src={SQL} />
+            </span>
+            <span class="item-name">SQL</span>
+          </div>
+          <div class="experience-item">
+            <span class="item-logo">
+              <img src={oracle} />
+            </span>
+            <span class="item-name">Oracle</span>
+          </div>
         </div>
       </section>
     </Fragment>

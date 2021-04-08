@@ -13,7 +13,7 @@ const Logs = lazy(() => import("../../Pages/Logs"));
 const SuperAdmin1 = lazy(() => import("../../Pages/SuperAdmin"));
 const HomePage1 = lazy(() => import("../../Pages/Home"));
 const Forms = lazy(() => import("../../Pages/Wizard"));
-const LandingPage1 = lazy(() => import("../../Pages/LandingPage/index"));
+const LandingPage1 = lazy(() => import("../../Pages/LandingPage"));
 
 // www
 //const Gis = lazy(() => import('../../www/Gis'));

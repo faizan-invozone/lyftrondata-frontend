@@ -54,8 +54,8 @@ export const SuperAdminNav = [
 
 export const LandingPageNav = [
   {
-    icon: "pe-7s-user",
-    label: "Landing",
+    icon: "pe-7s-home",
+    label: "Back to Home Page",
     to: "#/LandingPage",
   },
 ];

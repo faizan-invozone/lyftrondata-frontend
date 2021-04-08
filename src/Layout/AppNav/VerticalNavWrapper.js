@@ -83,14 +83,6 @@ class Nav extends Component {
           iconNamePrefix=""
           classNameStateIcon="pe-7s-angle-down"
         />
-        <MetisMenu
-          content={HomePageNav}
-          onSelected={this.toggleMobileSidebar}
-          activeLinkFromLocation
-          className="vertical-nav-menu"
-          iconNamePrefix=""
-          classNameStateIcon="pe-7s-angle-down"
-        />
       </Fragment>
     );
   }
