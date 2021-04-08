@@ -14,8 +14,8 @@ const LandingPage = (props) => {
           <img src={logo} alt="lyftron" />
           <h3>Lyftron Data</h3>
           <h4>Manage your data</h4>
-          <Link to="/dashboard/basic">
-            <button class="btn" href="#experience">
+          <Link to="/register">
+            <button class="btn">
               GET STARTED
             </button>
           </Link>
