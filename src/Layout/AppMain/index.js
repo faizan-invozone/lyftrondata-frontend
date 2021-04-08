@@ -134,7 +134,7 @@ const AppMain = () => {
         <Route path="/LandingPage" component={LandingPage1} />
       </Suspense>
 
-      <Route exact path="/" render={() => <Redirect to="/dashboard/basic" />} />
+      <Route exact path="/" render={() => <Redirect to="/LandingPage" />} />
       <ToastContainer />
     </Fragment>
   );
