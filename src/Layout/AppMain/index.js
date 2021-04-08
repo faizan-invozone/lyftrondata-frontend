@@ -14,8 +14,12 @@ const SuperAdmin1 = lazy(() => import("../../Pages/SuperAdmin"));
 const HomePage1 = lazy(() => import("../../Pages/Home"));
 const Forms = lazy(() => import("../../Pages/Wizard"));
 const LandingPage1 = lazy(() => import("../../Pages/LandingPage"));
+
 const Register = lazy(() => import("../../Pages/Register"));
 const PlanTypes = lazy(() => import("../../Pages/PlanTypes"));
+
+// const RegisterPage = lazy(() => import("../../Pages/Auth/Register"));
+const LoginPage = lazy(() => import("../../Pages/Auth/Login"));
 
 // www
 //const Gis = lazy(() => import('../../www/Gis'));
@@ -133,7 +137,22 @@ const AppMain = () => {
           </div>
         }
       >
-        <Route path="/LandingPage" component={LandingPage1} />
+        {/* <Route path="/LandingPage" component={LandingPage1} /> */}
+        <Route path="/LandingPage" component={LoginPage} />
+      </Suspense>
+
+      <Suspense
+        fallback={
+          <div className="loader-container">
+            <div className="loader-container-inner">
+              <div className="text-center">
+                <Loader type="ball-grid-cy" />
+              </div>
+            </div>
+          </div>
+        }
+      >
+        <Route path="/RegisterPage" component={RegisterPage} />
       </Suspense>
       
       <Suspense
@@ -165,6 +184,7 @@ const AppMain = () => {
       </Suspense>
 
       <Route exact path="/" render={() => <Redirect to="/LandingPage" />} />
+
       <ToastContainer />
     </Fragment>
   );
